@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 1rem;
+}
+
+img {
+  padding-left: 18px;
+}
+
+.navbar {
+  font-family: poppins;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 20px;
+  font-size: medium;
+  position: fixed;
+  width: 178px;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-left: 16px;
+}
+
+a {
+  display: flex;
+  margin-left: 14px;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.797);
+  text-decoration: none;
+  padding: 18px;
+}
+
+input {
+  width: 110px;
+  margin-top: 26px;
+  margin-left: 8px;
+  padding-left: 39px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: rgba(245, 245, 220, 0.3);
+}
+
+li :hover {
+  color: black;
+  font-weight: 600;
+}
+
+.fa-solid {
+  color: rgb(46, 46, 63);
+  position: relative;
+  left: 52px;
+  padding-top: 26px;
+}
+
+.fa-solid:hover {
+  color: goldenrod;
+}
+
+.banner {
+  margin-left: 140px;
+}
+
+.banner2 {
+  margin-top: -4px;
+  margin-left: 85px;
+}
+
+/* .banner3 {
+  margin-top: -10px;
+  margin-left: 142px;
+} */
+
+.banner4 {
+  margin-top: -4px;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 100px;
+  background-color: rgb(252, 252, 252)
+}
+
+.box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  padding-top: 20px;
+  padding-left: 35px;
+  height: 1100px;
+}
+
+.clothing {
+  position: relative;
+  left: -23.5px;
+  width: 1090px;
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  color: #2d3d49ec;
+  position: absolute;
+  bottom: 4px;
+  font-weight: 200;
+}
+
+.nextpage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 24px;
+  border: 1px solidrgb(207, 204, 204)y;
+  padding: 2px;
+  padding-left: 200px;
+}
+
+ol {
+  display: flex;
+  list-style: none;
+}
+
+.shirt:hover {
+  opacity: 0.8;
+}
+
+#MEN,
+#WOMEN,
+#KIDS,
+#INDIE,
+#HOMEANDKITCHEN {
+  display: flex;
+  margin-top: 12px;
+  margin-left: 178px;
+  font-size: 18px;
+  height: 1240px;
+  background-color: rgba(147, 144, 144, 0.278);
+}
+
+h4,
+p,
+h3,
+h6 {
+  text-align: center;
+  font-family: poppins;
+}
+
+h3 {
+  color: #e2b167;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 11px;
+
+}
+
+h4 {
+  color: rgb(22, 197, 22);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h6 {
+  color: rgb(230, 24, 24);
+  font-weight: 500;
+}
+
+.footer {
+  font-family: sans-serif;
+  font-size: 11px;
+  position: fixed;
+  bottom: 0;
+  height: 18px;
+  width: 1100px;
+  margin-left: 178px;
+  background-color: #2d3d49;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
